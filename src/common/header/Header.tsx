@@ -17,7 +17,13 @@ export const Header: React.FC = () => {
           to="/about"
           className={({ isActive }) => (isActive ? "active-link" : "")}
         >
-          A Propos
+          Contact
+        </NavLink>{" "}
+        <NavLink
+          to="/contact"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
+          Contact
         </NavLink>
       </nav>
     </header>

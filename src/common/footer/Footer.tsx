@@ -1,11 +1,11 @@
-import React from "react";
-import logo from "../../assets/logo.png";
+// import './Footer.scss';
 
 export const Footer: React.FC = () => {
   return (
-    <footer>
-      <img src={logo} alt="logo de Kasa" />
-      <p>© 2020 Kasa. All rights reserved</p>
+    <footer className="footer">
+      <p>
+        &copy; {new Date().getFullYear()} Julia Royer. Tous droits réservés.
+      </p>
     </footer>
   );
 };

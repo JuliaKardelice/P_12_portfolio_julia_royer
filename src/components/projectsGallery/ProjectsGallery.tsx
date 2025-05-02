@@ -10,7 +10,7 @@ interface Project {
   code: string;
 }
 
-export const ProjectGallery: React.FC = () => {
+export const ProjectsGallery: React.FC = () => {
   return (
     <div className="gallery">
       <div className="mainBanner">
